@@ -1,0 +1,7 @@
+homework.main_page:
+    path:     /
+    defaults: { _controller: HomeworkDefaultBundle:Default:index }
+
+homework.test_page:
+  path: /test/{firstNumber}/{secondNumber} 
+  defaults: { _controller: HomeworkDefaultBundle:Work:test }

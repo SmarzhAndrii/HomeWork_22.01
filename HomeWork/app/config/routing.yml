@@ -1,0 +1,4 @@
+homework_default:
+    resource: "@HomeworkDefaultBundle/Resources/config/routing.yml"
+    prefix:   /
+
